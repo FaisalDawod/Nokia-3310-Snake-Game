@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #181818;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.grid {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.snake {
+    background-color: #00B8A9;
+}
+
+.apple {
+    background-color: #cc1616;
+}
+
+.button {
+  background-color: #F8F3D4; /* Green */
+  border: none;
+  color: #FFFFFF;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-family: Verdana, Tahoma, sans-serif;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.buttonStart {
+  background-color: #FFFFFF;
+  color: #000000;
+  border: 2px solid #2e2e2e;
+}
+
+.buttonStart:hover {
+  background-color: #2e2e2e;
+  color: white;
+}
+
+.scoreDesign {
+    padding: 8px;
+    color: #00B8A9;
+    font-size: 20px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
